@@ -1,0 +1,22 @@
+@Html.DevExpress().GridView(settings => {
+        settings.Name = "GridView";
+        settings.CallbackRouteValues = new { Controller = "Home", Action = "GridViewPartial" };
+    
+        settings.KeyFieldName = "ProductID";
+
+        settings.Columns.Add("ProductID");
+        settings.Columns.Add("ProductName");
+        settings.Columns.Add("SupplierID");
+        settings.Columns.Add("CategoryID");
+        settings.Columns.Add("QuantityPerUnit");
+        settings.Columns.Add("UnitPrice");
+        settings.Columns.Add("UnitsInStock");
+        settings.Columns.Add("UnitsOnOrder");
+        settings.Columns.Add("ReorderLevel");
+        settings.Columns.Add("Discontinued");
+
+        settings.Settings.VerticalScrollBarMode = ScrollBarMode.Visible;
+        settings.SettingsPager.Mode = GridViewPagerMode.ShowAllRecords;
+        settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+        settings.Settings.VerticalScrollableHeight = 300;
+    }).Bind(Model).GetHtml()
