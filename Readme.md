@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/GridView/Controllers/HomeController.cs)
+* **[_GridViewPartial.cshtml](./CS/GridView/Views/Home/_GridViewPartial.cshtml)**
+* [Index.cshtml](./CS/GridView/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # GridView - How to automatically resize the grid to 100% inside a resizable PopupControl
 
 
