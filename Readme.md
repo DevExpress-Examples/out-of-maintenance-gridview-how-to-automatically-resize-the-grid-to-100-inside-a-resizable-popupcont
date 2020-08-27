@@ -7,7 +7,7 @@
 <!-- default file list end -->
 # GridView - How to automatically resize the grid to 100% inside a resizable PopupControl
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/100)**
+**[[Run Online]](https://codecentral.devexpress.com/100/)**
 <!-- run online end -->
 
 
